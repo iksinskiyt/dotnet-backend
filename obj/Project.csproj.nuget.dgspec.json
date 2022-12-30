@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mak0114\\code\\backend\\Project\\Project.csproj": {}
+    "C:\\Users\\mak01\\Documents\\code\\dotnet-backend\\Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mak0114\\code\\backend\\Project\\Project.csproj": {
+    "C:\\Users\\mak01\\Documents\\code\\dotnet-backend\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mak0114\\code\\backend\\Project\\Project.csproj",
+        "projectUniqueName": "C:\\Users\\mak01\\Documents\\code\\dotnet-backend\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "C:\\Users\\mak0114\\code\\backend\\Project\\Project.csproj",
-        "packagesPath": "C:\\Users\\mak0114\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mak0114\\code\\backend\\Project\\obj\\",
+        "projectPath": "C:\\Users\\mak01\\Documents\\code\\dotnet-backend\\Project.csproj",
+        "packagesPath": "C:\\Users\\mak01\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mak01\\Documents\\code\\dotnet-backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mak0114\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\mak01\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +38,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AspNetCore.HealthChecks.MongoDb": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -72,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\mak01\\AppData\\Roaming\\.dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

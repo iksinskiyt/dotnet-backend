@@ -1,12 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>2bb53a93-2cd5-4abe-a218-cbb15aebedf7</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.MongoDb" Version="6.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.1" />
     <PackageReference Include="MongoDB.Driver" Version="2.18.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
